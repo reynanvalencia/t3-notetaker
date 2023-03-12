@@ -20,7 +20,7 @@ export const Header = () => {
                             <div className="w-10 rounded-full">
                                 <img
                                     src={sessionData?.user?.image ?? ""}
-                                    alt={sessionData?.user?.name}
+                                    alt={sessionData?.user?.name ?? ""}
                                 />
                             </div>                            
                         </label>
